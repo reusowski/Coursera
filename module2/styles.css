@@ -1,26 +1,87 @@
-@media (min-width: 992px) { .col-lg-3 { float: left; width:33.33%; } }
-@media (min-width: 768px) and (max-width: 991px) { .col-md-3 { float: left; width: 50% } .col-md-30 { float: left; width: 100% } }
-@media (max-width: 767px) { .col-sm-3 { float: left; width:100% } }
+* { box-sizing: border-box;
+	font-family: "Trebuchet MS", cursive, sans-serif; }
 
-* { box-sizing: border-box; }
+@media (min-width: 992px) { .col-lg-3 { 
+	width: 33.33%;
+ 	overflow: hidden;
+ 	padding: 20px;
+ 	float: left;
 
-#title1 { 
-	position:relative;
-	width: 100px;
+	} }
+
+@media (min-width: 768px) and (max-width: 991px) { .col-md-3 {
+	float: left;
+	width: 50%;
+ 	overflow: hidden;
+ 	padding: 20px;
+ }
+
+	.col-md-30 { 
+	clear: left;
+	width: 100%;
+ 	overflow: hidden;
+ 	padding: 20px;
+
+	} }
+
+@media (max-width: 767px) { .col-sm-3 {
+	float: left;
+	width: 100%;
+ 	overflow: hidden;
+ 	padding: 20px;
+
+	} }
+
+.title1 { 
+	position: relative;
+	width: 250px;
 	margin-left: auto;
 	margin-right: 0;
+	margin-top: 0;
+	border: 1px solid black;
+	text-align: center;
+	padding: 20px;
+	background-color: #B4FFA5;
+	font-size: 125%;
 		}
 
-#title2 { 
-	position:relative;
-	width: 100px;
+.title2 { 
+	position: relative;
+	width: 250px;
 	margin-left: auto;
 	margin-right: 0;
+	margin-top: 0;
+	border: 1px solid black;
+	text-align: center;
+	padding: 20px;
+	background-color: #FDB7FD;
+	font-size: 125%
 		}
 
-#title3 { 
-	position:relative;
-	width: 100px;
+.title3 { 
+	position: relative;
+	width: 250px;
 	margin-left: auto;
 	margin-right: 0;
+	margin-top: 0;
+	border: 1px solid black;
+	text-align: center;
+	padding: 20px;
+	background-color: #FDFFA5;
+	font-size: 125%
 		}
+
+h1 { text-align:center;
+	font-size: 175%; }
+
+.innerbox {
+	background-color: #B7DEFF;
+	padding: 0px 0px 20px 20px;
+	position: relative;
+	border: 1px solid black;
+ 	overflow: hidden;
+}
+
+ol {
+	padding: 30px;
+}
